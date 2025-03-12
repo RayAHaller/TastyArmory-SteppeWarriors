@@ -44,7 +44,7 @@
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
 			<bodyPartGroups>
-				<li>Torso</li>
+				<li>Legs</li>
 			</bodyPartGroups>
 			<layers>
 				<li>Webbing</li>
