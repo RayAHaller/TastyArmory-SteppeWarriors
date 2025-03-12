@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Tastier Armory - Steppe Warriors</name>
+	<author>al9000</author>
+	<supportedVersions>
+	  <li>1.5</li>
+	</supportedVersions>
+		<packageId>al9000.medievalsteppe</packageId>
+	<description>stuff</description>
+	<loadAfter>
+		<li>CETeam.CombatExtended</li>
+	</loadAfter>
+</ModMetaData>

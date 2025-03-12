@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="ApparelMakeableBase" Name="TC_Kaftan">
+		<defName>TC_Apparel_KaftanCommoner</defName>
+		<label>kaftan</label>
+		<description>.</description>
+		<graphicData>
+			<texPath>Apparel/Clothes/KaftanCommoner/KaftanCommoner</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<possessionCount>1</possessionCount>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+		</recipeMaker>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>65</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>ApparelMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToMake>5500</WorkToMake>
+			<Mass>1.0</Mass>
+			<Bulk>3</Bulk>
+			<WornBulk>2.0</WornBulk>
+			<StuffEffectMultiplierArmor>4</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Clothes/KaftanCommoner/KaftanCommoner</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>Neolithic</li>
+				<li>Medieval</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<tradeTags>
+			<li>BasicClothing</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="TC_Kaftan">
+		<defName>TC_Apparel_KaftanWarrior</defName>
+		<label>warrior kaftan</label>
+		<description>.</description>
+		<graphicData>
+			<texPath>Apparel/Clothes/KaftanWarrior/KaftanWarrior</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>80</costStuffCount>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>1.5</Mass>
+			<Bulk>5</Bulk>
+			<WornBulk>2.0</WornBulk>
+			<StuffEffectMultiplierArmor>7</StuffEffectMultiplierArmor>
+		</statBases>
+		<apparel>
+			<wornGraphicPath>Apparel/Clothes/KaftanWarrior/KaftanWarrior</wornGraphicPath>
+			<tags Inherit="False">
+				<li>Neolithic</li>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorDecent</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+			</tags>
+			<defaultOutfitTags Inherit="False">
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="TC_Kaftan">
+		<defName>TC_Apparel_KaftanNoble</defName>
+		<label>noble kaftan</label>
+		<description>.</description>
+		<graphicData>
+			<texPath>Apparel/Clothes/KaftanNoble/KaftanNoble</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>70</costStuffCount>
+		<costList>
+			<Gold>1</Gold>
+		</costList>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>9000</WorkToMake>
+			<Mass>1</Mass>
+			<Bulk>5</Bulk>
+			<WornBulk>2.0</WornBulk>
+			<StuffEffectMultiplierArmor>7</StuffEffectMultiplierArmor>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.2</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Apparel/Clothes/KaftanNoble/KaftanNoble</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags Inherit="False">
+				<li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier5</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier6</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier7</li>
+			</tags>
+			<defaultOutfitTags Inherit="False">
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+</Defs>
