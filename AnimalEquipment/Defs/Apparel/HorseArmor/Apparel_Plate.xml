@@ -2,7 +2,7 @@
 <Defs>
 <!--
 	<ThingDef ParentName="AnimalPlateArmorBase">
-		<defName>TC_Apparel_LamellarHorseArmor</defName>
+		<defName>TA_Apparel_LamellarHorseArmor</defName>
 		<label>lamellar horse armor</label>
 		<description>todo.</description>
 		<descriptionHyperlinks>
@@ -29,7 +29,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AnimalPlateArmorBase">
-		<defName>TC_Apparel_LaminarHorseArmor</defName>
+		<defName>TA_Apparel_LaminarHorseArmor</defName>
 		<label>laminar horse armor</label>
 		<description>todo.</description>
 		<descriptionHyperlinks>
@@ -56,7 +56,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AnimalPlateHelmBase">
-		<defName>TC_Apparel_HorseHelmet</defName>
+		<defName>TA_Apparel_HorseHelmet</defName>
 		<label>horse helmet</label>
 		<description>todo.</description>
 		<descriptionHyperlinks>

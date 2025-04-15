@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 	<ThingDef ParentName="HatMakeableBase">
-		<defName>TC_Apparel_NomadFurHat</defName>
+		<defName>TA_Apparel_NomadFurHat</defName>
 		<label>nomad fur hat</label>
 		<description>todo.</description>
 		<graphicData>
-			<texPath>Apparel/Clothes/NomadFurHat/NomadFurHat</texPath>
+			<texPath>Apparel/Clothes/TA_NomadFurHat/TA_NomadFurHat</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costStuffCount>30</costStuffCount>
@@ -30,7 +30,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Clothes/NomadFurHat/NomadFurHat</wornGraphicPath>
+			<wornGraphicPath>Apparel/Clothes/TA_NomadFurHat/TA_NomadFurHat</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>

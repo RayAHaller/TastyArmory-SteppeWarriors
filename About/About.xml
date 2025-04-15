@@ -5,9 +5,15 @@
 	<supportedVersions>
 	  <li>1.5</li>
 	</supportedVersions>
-		<packageId>al9000.medievalsteppe</packageId>
+	<packageId>al9000.medievalsteppe</packageId>
 	<description>stuff</description>
+	<modDependencies>
+		<li>
+			<packageId>al9000.tastycore</packageId>
+			<displayName>Tasty Armory - Core</displayName>
+		</li>
+	</modDependencies>
 	<loadAfter>
-		<li>CETeam.CombatExtended</li>
+		<li>al9000.tastycore</li>
 	</loadAfter>
 </ModMetaData>

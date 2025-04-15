@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="TC_Apparel_HelmetFace" Abstract="True">
+	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="TA_Apparel_HelmetFace" Abstract="True">
 		<label>masked helmet</label>
 		<description>.</description>
 		<possessionCount>1</possessionCount>
@@ -57,38 +57,38 @@
 	</ThingDef>
 
 	
-	<ThingDef ParentName="TC_Apparel_HelmetFace">
-		<defName>TC_Apparel_HelmetFaceClosed</defName>
+	<ThingDef ParentName="TA_Apparel_HelmetFace">
+		<defName>TA_Apparel_HelmetFaceClosed</defName>
 		<graphicData>
-			<texPath>Apparel/Helmets/HelmetFace/HelmetFaceClosed</texPath>
+			<texPath>Apparel/Helmets/TA_HelmetFace/TA_HelmetFaceClosed</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Apparel/Helmets/HelmetFace/HelmetFaceClosed</wornGraphicPath>
+			<wornGraphicPath>Apparel/Helmets/TA_HelmetFace/TA_HelmetFaceClosed</wornGraphicPath>
 		</apparel>
 		<comps>
 			<li Class="VanillaApparelExpanded.CompProperties_SwitchApparel" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
-				<SwitchTo>TC_Apparel_HelmetFaceOpen</SwitchTo>
-				<graphicPath>Apparel/Helmets/HelmetFace/HelmetFaceOpen</graphicPath>
+				<SwitchTo>TA_Apparel_HelmetFaceOpen</SwitchTo>
+				<graphicPath>Apparel/Helmets/TA_HelmetFace/TA_HelmetFaceOpen</graphicPath>
 				<Label>open visor</Label>
 			</li>
 		</comps>
 	</ThingDef>
 	
-	<ThingDef ParentName="TC_Apparel_HelmetFace">
-		<defName>TC_Apparel_HelmetFaceOpen</defName>
+	<ThingDef ParentName="TA_Apparel_HelmetFace">
+		<defName>TA_Apparel_HelmetFaceOpen</defName>
 		<graphicData>
-			<texPath>Apparel/Helmets/HelmetFace/HelmetFaceOpen</texPath>
+			<texPath>Apparel/Helmets/TA_HelmetFace/TA_HelmetFaceOpen</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker Inherit="False" />
 		<apparel>
-			<wornGraphicPath>Apparel/Helmets/HelmetFace/HelmetFaceOpen</wornGraphicPath>
+			<wornGraphicPath>Apparel/Helmets/TA_HelmetFace/TA_HelmetFaceOpen</wornGraphicPath>
 		</apparel>
 		<comps>
 			<li Class="VanillaApparelExpanded.CompProperties_SwitchApparel" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
-				<SwitchTo>TC_Apparel_HelmetFaceClosed</SwitchTo>
-				<graphicPath>Apparel/Helmets/HelmetFace/HelmetFaceClosed</graphicPath>
+				<SwitchTo>TA_Apparel_HelmetFaceClosed</SwitchTo>
+				<graphicPath>Apparel/Helmets/TA_HelmetFace/TA_HelmetFaceClosed</graphicPath>
 				<Label>close visor</Label>
 			</li>
 		</comps>

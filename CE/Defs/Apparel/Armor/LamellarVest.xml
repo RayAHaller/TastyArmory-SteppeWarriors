@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<ThingDef ParentName="ArmorSmithableBase" Name="TC_LamellarVest">
-		<defName>TC_Apparel_LamellarVestMetal</defName>
+	<ThingDef ParentName="ArmorSmithableBase" Name="TA_LamellarVest">
+		<defName>TA_Apparel_LamellarVestMetal</defName>
 		<label>lamellar vest</label>
 		<description>todo.</description>
 		<graphicData>
-			<texPath>Apparel/Armor/LamellarVest/LamellarVest</texPath>
+			<texPath>Apparel/Armor/TA_LamellarVest/TA_LamellarVest</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<possessionCount>1</possessionCount>
@@ -37,15 +37,20 @@
 			<li>ApparelArmor</li>
 		</thingCategories>
 		<apparel>
+			<drawData>
+				<defaultData>
+					<layer>23</layer>
+				</defaultData>
+			</drawData>
 			<shellRenderedBehindHead>true</shellRenderedBehindHead>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Neck</li>
 				<li>Shoulders</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Armor/LamellarVest/LamellarVest</wornGraphicPath>
+			<wornGraphicPath>Apparel/Armor/TA_LamellarVest/TA_LamellarVest</wornGraphicPath>
 			<layers>
-				<li>Shell</li>
+				<li>Middle</li>
 			</layers>
 			<tags>
 				<li>MedievalMilitary</li>
@@ -100,12 +105,12 @@
 		</tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="TC_LamellarVest">
-		<defName>TC_Apparel_LamellarVestLeather</defName>
+	<ThingDef ParentName="TA_LamellarVest">
+		<defName>TA_Apparel_LamellarVestLeather</defName>
 		<label>lamellar vest</label>
 		<description>todo.</description>
 		<graphicData>
-			<texPath>Apparel/Armor/LamellarVest/LamellarVest</texPath>
+			<texPath>Apparel/Armor/TA_LamellarVest/LamellarVest</texPath>
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>ComplexClothing</researchPrerequisite>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef ParentName="TC_ApparelCarryGearBase">
-		<defName>TC_Apparel_BowAndArrowQuivers</defName>
+	<ThingDef ParentName="TA_ApparelCarryGearBase">
+		<defName>TA_Apparel_BowAndArrowQuivers</defName>
 		<label>bow and arrow quiver</label>
 		<description>An archer's bow and arrow quiver belt, ergonomic, fits many arrows.</description>
 		<graphicData>
-			<texPath>Apparel/Accessories/BowAndArrowQuivers/BowAndArrowQuivers</texPath>
+			<texPath>Apparel/Accessories/TA_BowAndArrowQuivers/TA_BowAndArrowQuivers</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Neolithic</techLevel>
@@ -40,7 +40,7 @@
 				<li>Torso</li>
 			</bodyPartGroups>
 			<layers>
-				<li>TC_Webbing</li>
+				<li>TA_Webbing</li>
 			</layers>
 			<tags>
 				<li>Neolithic</li>
@@ -55,7 +55,7 @@
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
-			<wornGraphicPath>Apparel/Accessories/BowAndArrowQuivers/BowAndArrowQuivers</wornGraphicPath>
+			<wornGraphicPath>Apparel/Accessories/TA_BowAndArrowQuivers/TA_BowAndArrowQuivers</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />

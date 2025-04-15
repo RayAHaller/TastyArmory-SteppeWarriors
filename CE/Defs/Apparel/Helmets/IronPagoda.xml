@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="TC_Apparel_IronPagoda" Abstract="True">
+	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="TA_Apparel_IronPagoda" Abstract="True">
 		<label>iron pagoda helmet</label>
 		<description>.</description>
 		<possessionCount>1</possessionCount>
@@ -22,8 +22,7 @@
 			<Bulk>6</Bulk>
 			<Mass>3.2</Mass>
 			<StuffEffectMultiplierArmor>3.3</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<thingCategories>
@@ -60,10 +59,10 @@
 	</ThingDef>
 
 	
-	<ThingDef ParentName="TC_Apparel_IronPagoda">
-		<defName>TC_Apparel_IronPagodaClosed</defName>
+	<ThingDef ParentName="TA_Apparel_IronPagoda">
+		<defName>TA_Apparel_IronPagodaClosed</defName>
 		<graphicData>
-			<texPath>Apparel/Helmets/IronPagoda/IronPagodaClosed</texPath>
+			<texPath>Apparel/Helmets/TA_IronPagoda/TA_IronPagodaClosed</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<equippedStatOffsets>
@@ -71,12 +70,12 @@
 			<MeleeHitChance>-2</MeleeHitChance>
 		</equippedStatOffsets>
 		<apparel>
-			<wornGraphicPath>Apparel/Helmets/IronPagoda/IronPagodaClosed</wornGraphicPath>
+			<wornGraphicPath>Apparel/Helmets/TA_IronPagoda/TA_IronPagodaClosed</wornGraphicPath>
 		</apparel>
 		<comps>
 			<li Class="VanillaApparelExpanded.CompProperties_SwitchApparel" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
-				<SwitchTo>TC_Apparel_IronPagodaOpen</SwitchTo>
-				<graphicPath>Apparel/Helmets/IronPagoda/IronPagodaOpen</graphicPath>
+				<SwitchTo>TA_Apparel_IronPagodaOpen</SwitchTo>
+				<graphicPath>Apparel/Helmets/TA_IronPagoda/TA_IronPagodaOpen</graphicPath>
 				<Label>open visor</Label>
 			</li>
 		</comps>
@@ -136,20 +135,20 @@
 		</modExtensions>
 	</ThingDef>
 	
-	<ThingDef ParentName="TC_Apparel_IronPagoda">
-		<defName>TC_Apparel_IronPagodaOpen</defName>
+	<ThingDef ParentName="TA_Apparel_IronPagoda">
+		<defName>TA_Apparel_IronPagodaOpen</defName>
 		<graphicData>
-			<texPath>Apparel/Helmets/IronPagoda/IronPagodaOpen</texPath>
+			<texPath>Apparel/Helmets/TA_IronPagoda/TA_IronPagodaOpen</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker Inherit="False" />
 		<apparel>
-			<wornGraphicPath>Apparel/Helmets/IronPagoda/IronPagodaOpen</wornGraphicPath>
+			<wornGraphicPath>Apparel/Helmets/TA_IronPagoda/TA_IronPagodaOpen</wornGraphicPath>
 		</apparel>
 		<comps>
 			<li Class="VanillaApparelExpanded.CompProperties_SwitchApparel" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
-				<SwitchTo>TC_Apparel_IronPagodaClosed</SwitchTo>
-				<graphicPath>Apparel/Helmets/IronPagoda/IronPagodaClosed</graphicPath>
+				<SwitchTo>TA_Apparel_IronPagodaClosed</SwitchTo>
+				<graphicPath>Apparel/Helmets/TA_IronPagoda/TA_IronPagodaClosed</graphicPath>
 				<Label>close visor</Label>
 			</li>
 		</comps>

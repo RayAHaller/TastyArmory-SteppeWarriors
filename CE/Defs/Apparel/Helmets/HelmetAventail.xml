@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="TC_HelmetAventail">
-		<defName>TC_Apparel_HelmetAventailLamellar</defName>
+	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="TA_HelmetAventail">
+		<defName>TA_Apparel_HelmetAventailLamellar</defName>
 		<label>lamellar aventail helmet</label>
 		<description>todo.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/HelmetAventailBrigandine/HelmetAventailBrigandine</texPath>
+			<texPath>Apparel/Helmets/TA_HelmetAventailBrigandine/TA_HelmetAventailBrigandine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<possessionCount>1</possessionCount>
@@ -22,8 +22,7 @@
 			<Bulk>5</Bulk>
 			<WornBulk>1</WornBulk>
 			<StuffEffectMultiplierArmor>2.5</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
 			<EquipDelay>3</EquipDelay>
 		</statBases>
 		<recipeMaker>
@@ -41,7 +40,7 @@
 				<li>FullHead</li>
 				<li>Neck</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Helmets/HelmetAventailBrigandine/HelmetAventailBrigandine</wornGraphicPath>
+			<wornGraphicPath>Apparel/Helmets/TA_HelmetAventailBrigandine/TA_HelmetAventailBrigandine</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -93,16 +92,16 @@
 		</tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="TC_HelmetAventail">
-		<defName>TC_Apparel_HelmetAventailBrigandine</defName>
+	<ThingDef ParentName="TA_HelmetAventail">
+		<defName>TA_Apparel_HelmetAventailBrigandine</defName>
 		<label>brigandine helmet</label>
 		<description>todo.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/HelmetAventailLamellar/HelmetAventailLamellar</texPath>
+			<texPath>Apparel/Helmets/TA_HelmetAventailLamellar/HelmetAventailLamellar</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Apparel/Helmets/HelmetAventailLamellar/HelmetAventailLamellar</wornGraphicPath>
+			<wornGraphicPath>Apparel/Helmets/TA_HelmetAventailLamellar/HelmetAventailLamellar</wornGraphicPath>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>

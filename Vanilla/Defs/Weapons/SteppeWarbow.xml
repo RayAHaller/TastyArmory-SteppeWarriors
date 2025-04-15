@@ -4,20 +4,20 @@
 	<!--Bow-->
 
 	<ThingDef ParentName="BaseWeaponNeolithic">
-		<defName>TC_Bow_SteppeBow</defName>
+		<defName>TA_Bow_SteppeBow</defName>
 		<label>steppe  warbow</label>
 		<description>.</description>
 		<graphicData>
-			<texPath>Weapons/SteppeWarbow/TC_SteppeWarbowA</texPath>
+			<texPath>Weapons/TA_SteppeWarbow/TA_SteppeWarbowA</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<randomStyleChance>0.66</randomStyleChance>
 		<randomStyle>
 			<li>
-				<styleDef>TC_Bow_SteppeBowA</styleDef>
+				<styleDef>TA_Bow_SteppeBowA</styleDef>
 			</li>
 			<li>
-				<styleDef>TC_Bow_SteppeBowC</styleDef>
+				<styleDef>TA_Bow_SteppeBowC</styleDef>
 			</li>
 		</randomStyle>
 		<soundInteract>Bow_Recurve</soundInteract>
@@ -78,18 +78,18 @@
 
 	<!--Style-->
 	<ThingStyleDef>
-		<defName>TC_Bow_SteppeBowA</defName>
+		<defName>TA_Bow_SteppeBowA</defName>
 		<graphicData>
-			<texPath>Weapons/SteppeWarbow/TC_SteppeWarbowA</texPath>
+			<texPath>Weapons/TA_SteppeWarbow/TA_SteppeWarbowA</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 	</ThingStyleDef>
 
 	<ThingStyleDef>
-		<defName>TC_Bow_SteppeBowC</defName>
+		<defName>TA_Bow_SteppeBowC</defName>
 		<graphicData>
-			<texPath>Weapons/SteppeWarbow/TC_SteppeWarbowC</texPath>
+			<texPath>Weapons/TA_SteppeWarbow/TA_SteppeWarbowC</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>

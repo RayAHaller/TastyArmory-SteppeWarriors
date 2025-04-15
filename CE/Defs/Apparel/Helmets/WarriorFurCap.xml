@@ -2,15 +2,15 @@
 <Defs>
 
 	<ThingDef ParentName="HatMakeableBase">
-		<defName>TC_Apparel_WarriorFurCap</defName>
+		<defName>TA_Apparel_WarriorFurCap</defName>
 		<label>warrior fur cap</label>
 		<description>todo.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/WarriorFurCap/WarriorFurCap</texPath>
+			<texPath>Apparel/Helmets/TA_WarriorFurCap/TA_WarriorFurCap</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<uiIconScale>1.25</uiIconScale>
-		<costStuffCount>40</costStuffCount>
+		<costStuffCount>35</costStuffCount>
 		<stuffCategories>
 			<li>Leathery</li>
 		</stuffCategories>
@@ -35,7 +35,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Helmets/WarriorFurCap/WarriorFurCap</wornGraphicPath>
+			<wornGraphicPath>Apparel/Helmets/TA_WarriorFurCap/TA_WarriorFurCap</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>

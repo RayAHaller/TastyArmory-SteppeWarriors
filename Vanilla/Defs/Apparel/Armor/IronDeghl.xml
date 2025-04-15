@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="ArmorSmithableBase">
-		<defName>TC_Apparel_IronDeghl</defName>
+		<defName>TA_Apparel_IronDeghl</defName>
 		<label>iron deghl</label>
 		<description>todo.</description>
 		<possessionCount>1</possessionCount>
@@ -14,7 +14,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Apparel/Armor/IronDeghl/IronDeghl</texPath>
+			<texPath>Apparel/Armor/TA_IronDeghl/TA_IronDeghl</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories>
@@ -52,7 +52,7 @@
 				<li>Legs</li>
 				<li>Hands</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Armor/IronDeghl/IronDeghl</wornGraphicPath>
+			<wornGraphicPath>Apparel/Armor/TA_IronDeghl/TA_IronDeghl</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>

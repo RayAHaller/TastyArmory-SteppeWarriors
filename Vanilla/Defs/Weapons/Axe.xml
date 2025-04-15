@@ -2,30 +2,30 @@
 <Defs>
 
 	<ThingStyleDef>
-		<defName>TC_Melee_AxeB</defName>
+		<defName>TA_Melee_AxeB</defName>
 		<graphicData>
-			<texPath>Weapons/Fokos/TC_FokosB</texPath>
+			<texPath>Weapons/TA_Fokos/TA_FokosB</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 	</ThingStyleDef>
 
 	<ThingStyleDef>
-		<defName>TC_Melee_AxeC</defName>
+		<defName>TA_Melee_AxeC</defName>
 		<graphicData>
-			<texPath>Weapons/Fokos/TC_FokosC</texPath>
+			<texPath>Weapons/TA_Fokos/TA_FokosC</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 	</ThingStyleDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>TC_Melee_Axe</defName>
+		<defName>TA_Melee_Axe</defName>
 		<label>axe</label>
 		<description>.</description>
 		<techLevel>Medieval</techLevel>
 		<graphicData>
-			<texPath>Weapons/Fokos/TC_FokosA</texPath>
+			<texPath>Weapons/TA_Fokos/TA_FokosA</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>0.85</drawSize>
@@ -34,10 +34,10 @@
 		<randomStyleChance>0.66</randomStyleChance>
 		<randomStyle>
 			<li>
-				<styleDef>TC_Melee_AxeB</styleDef>
+				<styleDef>TA_Melee_AxeB</styleDef>
 			</li>
 			<li>
-				<styleDef>TC_Melee_AxeC</styleDef>
+				<styleDef>TA_Melee_AxeC</styleDef>
 			</li>
 		</randomStyle>
 		<stuffCategories>

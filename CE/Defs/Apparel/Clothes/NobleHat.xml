@@ -2,17 +2,16 @@
 <Defs>
 
 	<ThingDef ParentName="HatMakeableBase">
-		<defName>TC_Apparel_NobleHat</defName>
+		<defName>TA_Apparel_NobleHat</defName>
 		<label>noble hat</label>
 		<description>todo.</description>
 		<graphicData>
-			<texPath>Apparel/Clothes/NobleHat/NobleHat</texPath>
+			<texPath>Apparel/Clothes/TA_NobleHat/TA_NobleHat</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costStuffCount>20</costStuffCount>
 		<stuffCategories>
 			<li>Fabric</li>
-			<li>Leathery</li>
 		</stuffCategories>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
@@ -35,7 +34,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Clothes/NobleHat/NobleHat</wornGraphicPath>
+			<wornGraphicPath>Apparel/Clothes/TA_NobleHat/TA_NobleHat</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>

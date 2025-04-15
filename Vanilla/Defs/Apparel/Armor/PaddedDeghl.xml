@@ -2,11 +2,11 @@
 <Defs>
 
 	<ThingDef ParentName="ApparelMakeableBase">
-		<defName>TC_Apparel_PaddedDeghl</defName>
+		<defName>TA_Apparel_PaddedDeghl</defName>
 		<label>padded deghl</label>
 		<description>A thick padded coat made of lots of fabric layers, protects from cuts and bruises.</description>
 		<graphicData>
-			<texPath>Apparel/Armor/PaddedDeghl/PaddedDeghl</texPath>
+			<texPath>Apparel/Armor/TA_PaddedDeghl/TA_PaddedDeghl</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
@@ -44,7 +44,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Armor/PaddedDeghl/PaddedDeghl</wornGraphicPath>
+			<wornGraphicPath>Apparel/Armor/TA_PaddedDeghl/TA_PaddedDeghl</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 			</layers>

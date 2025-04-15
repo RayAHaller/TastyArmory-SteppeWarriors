@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="ArmorSmithableBase">
-		<defName>TC_Apparel_LamellarArmor</defName>
+		<defName>TA_Apparel_LamellarArmor</defName>
 		<label>lamellar heavy armor</label>
 		<description>todo.</description>
 		<possessionCount>1</possessionCount>
@@ -14,7 +14,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Apparel/Armor/LamellarArmor/LamellarArmor</texPath>
+			<texPath>Apparel/Armor/TA_LamellarArmor/TA_LamellarArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories>
@@ -46,20 +46,23 @@
 			<li>Armor</li>
 		</tradeTags>
 		<apparel>
+			<drawData>
+				<defaultData>
+					<layer>23</layer>
+				</defaultData>
+			</drawData>
 			<shellRenderedBehindHead>true</shellRenderedBehindHead>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-				<li>Hands</li>
-				<li>Feet</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Armor/LamellarArmor/LamellarArmor</wornGraphicPath>
+			<wornGraphicPath>Apparel/Armor/TA_LamellarArmor/TA_LamellarArmor</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
-				<li>Shell</li>
+				<li>TA_UnderArmor</li>
 			</layers>
 			<tags>
 				<li>MedievalMilitary</li>

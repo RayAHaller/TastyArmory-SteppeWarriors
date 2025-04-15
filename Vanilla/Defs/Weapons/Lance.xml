@@ -2,38 +2,38 @@
 <Defs>
 
 	<ThingStyleDef>
-		<defName>TC_Melee_LanceA</defName>
+		<defName>TA_Melee_LanceA</defName>
 		<graphicData>
-			<texPath>Weapons/Lance/TC_LanceA</texPath>
+			<texPath>Weapons/TA_Lance/TA_LanceA</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 	</ThingStyleDef>
 
 	<ThingStyleDef>
-		<defName>TC_LanceHookedA</defName>
+		<defName>TA_LanceHookedA</defName>
 		<graphicData>
-			<texPath>Weapons/Lance/TC_HookedLanceA</texPath>
+			<texPath>Weapons/TA_Lance/TA_HookedLanceA</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 	</ThingStyleDef>
 
 	<ThingStyleDef>
-		<defName>TC_LanceHookedB</defName>
+		<defName>TA_LanceHookedB</defName>
 		<graphicData>
-			<texPath>Weapons/Lance/TC_HookedLanceB</texPath>
+			<texPath>Weapons/TA_Lance/TA_HookedLanceB</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 	</ThingStyleDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>TC_Melee_Lance</defName>
+		<defName>TA_Melee_Lance</defName>
 		<label>lance</label>
 		<description>todo.</description>
 		<graphicData>
-			<texPath>Weapons/Lance/TC_LanceB</texPath>
+			<texPath>Weapons/TA_Lance/TA_LanceB</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.3</drawSize>
@@ -42,13 +42,13 @@
 		<randomStyleChance>0.66</randomStyleChance>
 		<randomStyle>
 			<li>
-				<styleDef>TC_Melee_LanceA</styleDef>
+				<styleDef>TA_Melee_LanceA</styleDef>
 			</li>
 			<li>
-				<styleDef>TC_LanceHookedA</styleDef>
+				<styleDef>TA_LanceHookedA</styleDef>
 			</li>
 			<li>
-				<styleDef>TC_LanceHookedB</styleDef>
+				<styleDef>TA_LanceHookedB</styleDef>
 			</li>
 		</randomStyle>
 		<techLevel>Medieval</techLevel>

@@ -2,11 +2,11 @@
 <Defs>
 
 	<ThingDef ParentName="ApparelCarryGearBase">
-		<defName>TC_Apparel_SaberScabbard</defName>
+		<defName>TA_Apparel_SaberScabbard</defName>
 		<label>saber scabbard</label>
 		<description>Scabbard holding a saber, stylish and comfortable personal defense carry.</description>
 		<graphicData>
-			<texPath>Apparel/Accessories/SaberScabbard/SaberScabbard</texPath>
+			<texPath>Apparel/Accessories/TA_SaberScabbard/TA_SaberScabbard</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -16,29 +16,25 @@
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-			<recipeUsers>
-				<li>HandTailoringBench</li>
-				<li>ElectricTailoringBench</li>
-			</recipeUsers>
 		</recipeMaker>
 		<statBases>
-			<MaxHitPoints>120</MaxHitPoints>
+			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>5000</WorkToMake>
-			<Mass>1</Mass>
-			<Bulk>7</Bulk>
-			<WornBulk>0</WornBulk>
-			<EquipDelay>3.5</EquipDelay>
+			<Mass>0.45</Mass>
+			<Bulk>1</Bulk>
+			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<CarryBulk>12</CarryBulk>
-			<SocialImpact>0.15</SocialImpact>
+			<SocialImpact>0.10</SocialImpact>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+			<CarryBulk>8</CarryBulk>
 		</equippedStatOffsets>
-		<costStuffCount>20</costStuffCount>
+		<costStuffCount>15</costStuffCount>
 		<stuffCategories>
 			<li>Leathery</li>
 		</stuffCategories>
 		<costList>
-			<Steel>15</Steel>
+			<Steel>10</Steel>
 		</costList>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
@@ -62,7 +58,7 @@
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
-			<wornGraphicPath>Apparel/Accessories/SaberScabbard/SaberScabbard</wornGraphicPath>
+			<wornGraphicPath>Apparel/Accessories/TA_SaberScabbard/TA_SaberScabbard</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />

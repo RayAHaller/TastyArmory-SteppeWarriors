@@ -2,11 +2,11 @@
 <Defs>
 
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
-		<defName>TC_Apparel_CumanNasal</defName>
+		<defName>TA_Apparel_CumanNasal</defName>
 		<label>cuman nasal helmet</label>
 		<description>todo.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/CumanNasal/CumanNasal</texPath>
+			<texPath>Apparel/Helmets/TA_CumanNasal/TA_CumanNasal</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<possessionCount>1</possessionCount>
@@ -39,7 +39,7 @@
 				<li>FullHead</li>
 				<li>Neck</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Helmets/CumanNasal/CumanNasal</wornGraphicPath>
+			<wornGraphicPath>Apparel/Helmets/TA_CumanNasal/TA_CumanNasal</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>

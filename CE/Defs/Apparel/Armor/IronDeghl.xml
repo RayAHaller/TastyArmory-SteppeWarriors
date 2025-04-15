@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="ArmorSmithableBase">
-		<defName>TC_Apparel_IronDeghl</defName>
+		<defName>TA_Apparel_IronDeghl</defName>
 		<label>iron deghl</label>
 		<description>todo.</description>
 		<possessionCount>1</possessionCount>
@@ -14,25 +14,25 @@
 			</skillRequirements>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Apparel/Armor/IronDeghl/IronDeghl</texPath>
+			<texPath>Apparel/Armor/TA_IronDeghl/TA_IronDeghl</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories>
 			<li>Steeled</li>
 		</stuffCategories>
 		<costList>
-			<Cloth>70</Cloth>
+			<Cloth>80</Cloth>
 		</costList>
-		<costStuffCount>145</costStuffCount>
+		<costStuffCount>125</costStuffCount>
 		<statBases>
 			<WorkToMake>35000</WorkToMake>
 			<MaxHitPoints>300</MaxHitPoints>
 			<Mass>14</Mass>
 			<Bulk>60</Bulk>
 			<WornBulk>5</WornBulk>
-			<StuffEffectMultiplierArmor>2.5</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierArmor>2.4</StuffEffectMultiplierArmor>
+			<Insulation_Cold>30</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>15</EquipDelay>
 		</statBases>
 		<thingSetMakerTags>
@@ -46,18 +46,23 @@
 			<li>Armor</li>
 		</tradeTags>
 		<apparel>
+			<drawData>
+				<defaultData>
+					<layer>23</layer>
+				</defaultData>
+			</drawData>
 			<shellRenderedBehindHead>true</shellRenderedBehindHead>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-				<li>Hands</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Armor/IronDeghl/IronDeghl</wornGraphicPath>
+			<wornGraphicPath>Apparel/Armor/TA_IronDeghl/TA_IronDeghl</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
+				<li>TA_UnderArmor</li>
 				<li>Shell</li>
 			</layers>
 			<tags>
