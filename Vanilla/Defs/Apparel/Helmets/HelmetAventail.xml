@@ -6,7 +6,7 @@
 		<label>lamellar aventail helmet</label>
 		<description>todo.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/TA_HelmetAventailBrigandine/HelmetAventailBrigandine</texPath>
+			<texPath>Apparel/Helmets/TA_HelmetAventailBrigandine/TA_HelmetAventailBrigandine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<possessionCount>1</possessionCount>

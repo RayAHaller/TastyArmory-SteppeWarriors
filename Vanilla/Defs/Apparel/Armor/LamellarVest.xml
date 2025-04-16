@@ -41,7 +41,7 @@
 				<li>Neck</li>
 				<li>Shoulders</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Armor/TA_LamellarVest/TA_LamellarVest</wornGraphicPath>
+			<wornGraphicPath>Apparel/Armor/TA_LamellarVestTA_Vest</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>
@@ -67,7 +67,7 @@
 		<label>lamellar vest</label>
 		<description>todo.</description>
 		<graphicData>
-			<texPath>Apparel/Armor/TA_LamellarVest/LamellarVest</texPath>
+			<texPath>Apparel/Armor/TA_LamellarVest/TLamellarVest</texPath>
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>ComplexClothing</researchPrerequisite>

@@ -9,7 +9,7 @@
 			<ThingDef>Horse</ThingDef>
 		</descriptionHyperlinks>
 		<graphicData>
-			<texPath>Apparel/HorseArmor/LamellarHorseArmor/LamellarHorseArmor</texPath>
+			<texPath>Apparel/HorseArmor/TA_LamellarHorseArmor/TA_LamellarHorseArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costStuffCount>200</costStuffCount>
@@ -19,7 +19,7 @@
 			<Mass>15</Mass>
 		</statBases>
 		<apparel>
-			<wornGraphicPath>Apparel/HorseArmor/LamellarHorseArmor/LamellarHorseArmor</wornGraphicPath>
+			<wornGraphicPath>Apparel/HorseArmor/TA_LamellarHorseArmor/TA_LamellarHorseArmor</wornGraphicPath>
 			<tags>
 				<li>Animal</li>
 				<li>AnimalCUTOUTCOMPLEX</li>
