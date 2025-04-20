@@ -67,7 +67,7 @@
 		<label>lamellar vest</label>
 		<description>todo.</description>
 		<graphicData>
-			<texPath>Apparel/Armor/TA_LamellarVest/TLamellarVest</texPath>
+			<texPath>Apparel/Armor/TA_LamellarVest/TA_LamellarVest</texPath>
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>ComplexClothing</researchPrerequisite>
