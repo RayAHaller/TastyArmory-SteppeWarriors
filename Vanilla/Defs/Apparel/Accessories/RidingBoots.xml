@@ -2,9 +2,9 @@
 <Defs>
 
 	<ThingDef ParentName="ArmorSmithableBase">
-		<defName>TA_Apparel_RidingBoots</defName>
+		<defName>TA_RidingBoots</defName>
 		<label>riding boots</label>
-		<description>todo.</description>
+		<description>.</description>
 		<graphicData>
 			<texPath>Apparel/Accessories/TA_RidingBoots</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

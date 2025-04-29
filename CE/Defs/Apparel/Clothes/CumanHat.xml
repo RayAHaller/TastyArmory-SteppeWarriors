@@ -2,24 +2,23 @@
 <Defs>
 
 	<ThingDef ParentName="HatMakeableBase">
-		<defName>TA_NobleHat</defName>
-		<label>noble hat</label>
+		<defName>TA_CumanHat</defName>
+		<label>cuman hat</label>
 		<description>.</description>
 		<graphicData>
-			<texPath>Apparel/Clothes/TA_NobleHat/TA_NobleHat</texPath>
+			<texPath>Apparel/Clothes/TA_CumanHat/TA_CumanHat</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<costStuffCount>20</costStuffCount>
+		<costStuffCount>25</costStuffCount>
 		<stuffCategories>
 			<li>Fabric</li>
-			<li>Leathery</li>
 		</stuffCategories>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
-			<WorkToMake>3000</WorkToMake>
+			<WorkToMake>2500</WorkToMake>
 			<Mass>0.1</Mass>
-			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierArmor>3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>0.8</EquipDelay>
 		</statBases>
@@ -35,7 +34,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Clothes/TA_NobleHat/TA_NobleHat</wornGraphicPath>
+			<wornGraphicPath>Apparel/Clothes/TA_CumanHat/TA_CumanHat</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>

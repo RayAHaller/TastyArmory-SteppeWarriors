@@ -2,9 +2,9 @@
 <Defs>
 
 	<ThingDef ParentName="ArmorSmithableBase">
-		<defName>TA_Apparel_RidingBoots</defName>
+		<defName>TA_RidingBoots</defName>
 		<label>riding boots</label>
-		<description>todo.</description>
+		<description>.</description>
 		<graphicData>
 			<texPath>Apparel/Accessories/TA_RidingBoots</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -28,7 +28,7 @@
 			<WornBulk>0.5</WornBulk>
 			<Mass>0.8</Mass>
 			<StuffEffectMultiplierArmor>6</StuffEffectMultiplierArmor>
-			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
 			<EquipDelay>1</EquipDelay>
 		</statBases>

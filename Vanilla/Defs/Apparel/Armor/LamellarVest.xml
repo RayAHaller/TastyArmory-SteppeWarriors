@@ -2,9 +2,9 @@
 <Defs>
 
 	<ThingDef ParentName="ArmorSmithableBase" Name="TA_LamellarVest">
-		<defName>TA_Apparel_LamellarVestMetal</defName>
+		<defName>TA_LamellarVestMetal</defName>
 		<label>lamellar vest</label>
-		<description>todo.</description>
+		<description>.</description>
 		<graphicData>
 			<texPath>Apparel/Armor/TA_LamellarVest/TA_LamellarVest</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -63,9 +63,9 @@
 	</ThingDef>
 
 	<ThingDef ParentName="TA_LamellarVest">
-		<defName>TA_Apparel_LamellarVestLeather</defName>
+		<defName>TA_LamellarVestLeather</defName>
 		<label>lamellar vest</label>
-		<description>todo.</description>
+		<description>.</description>
 		<graphicData>
 			<texPath>Apparel/Armor/TA_LamellarVest/TA_LamellarVest</texPath>
 		</graphicData>

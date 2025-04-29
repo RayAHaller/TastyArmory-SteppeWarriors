@@ -2,9 +2,9 @@
 <Defs>
 
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
-		<defName>TA_Apparel_CumanNasal</defName>
+		<defName>TA_CumanNasal</defName>
 		<label>cuman nasal helmet</label>
-		<description>todo.</description>
+		<description>.</description>
 		<graphicData>
 			<texPath>Apparel/Helmets/TA_CumanNasal/TA_CumanNasal</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

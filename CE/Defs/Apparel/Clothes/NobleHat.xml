@@ -2,22 +2,22 @@
 <Defs>
 
 	<ThingDef ParentName="HatMakeableBase">
-		<defName>TA_Apparel_NobleHat</defName>
+		<defName>TA_NobleHat</defName>
 		<label>noble hat</label>
-		<description>todo.</description>
+		<description>.</description>
 		<graphicData>
 			<texPath>Apparel/Clothes/TA_NobleHat/TA_NobleHat</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<costStuffCount>20</costStuffCount>
+		<costStuffCount>25</costStuffCount>
 		<stuffCategories>
 			<li>Fabric</li>
 		</stuffCategories>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
-			<WorkToMake>3000</WorkToMake>
+			<WorkToMake>4000</WorkToMake>
 			<Mass>0.1</Mass>
-			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>3</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>0.8</EquipDelay>

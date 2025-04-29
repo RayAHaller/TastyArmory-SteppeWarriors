@@ -2,9 +2,9 @@
 <Defs>
 
 	<ThingDef ParentName="ArmorSmithableBase">
-		<defName>TA_Apparel_LamellarArmor</defName>
+		<defName>TA_LamellarArmor</defName>
 		<label>lamellar heavy armor</label>
-		<description>todo.</description>
+		<description>.</description>
 		<possessionCount>1</possessionCount>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
@@ -20,17 +20,14 @@
 		<stuffCategories>
 			<li>Steeled</li>
 		</stuffCategories>
-		<costList>
-			<Cloth>50</Cloth>
-		</costList>
-		<costStuffCount>180</costStuffCount>
+		<costStuffCount>150</costStuffCount>
 		<statBases>
-			<WorkToMake>38000</WorkToMake>
+			<WorkToMake>35000</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
-			<Mass>18</Mass>
+			<Mass>14</Mass>
 			<Bulk>60</Bulk>
 			<WornBulk>5</WornBulk>
-			<StuffEffectMultiplierArmor>3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>2.3</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>15</EquipDelay>
@@ -62,7 +59,6 @@
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
-				<li>TA_UnderArmor</li>
 			</layers>
 			<tags>
 				<li>MedievalMilitary</li>

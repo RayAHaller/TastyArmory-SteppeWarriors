@@ -31,7 +31,7 @@
 	<ThingDef ParentName="ShieldBase">
 		<defName>TA_Apparel_RattanShield</defName>
 		<label>rattan shield</label>
-		<description>todo.</description>
+		<description>.</description>
 		<graphicData>
 			<texPath>Apparel/Accessories/TA_RattanShield/TA_RattanShield_Covered</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

@@ -2,9 +2,9 @@
 <Defs>
 
 	<ThingDef ParentName="ArmorSmithableBase">
-		<defName>TA_Apparel_IronDeghl</defName>
-		<label>iron deghl</label>
-		<description>todo.</description>
+		<defName>TA_IronDegel</defName>
+		<label>iron degel</label>
+		<description>.</description>
 		<possessionCount>1</possessionCount>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
@@ -30,7 +30,7 @@
 			<Mass>14</Mass>
 			<Bulk>60</Bulk>
 			<WornBulk>5</WornBulk>
-			<StuffEffectMultiplierArmor>2.4</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
 			<Insulation_Cold>30</Insulation_Cold>
 			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>15</EquipDelay>

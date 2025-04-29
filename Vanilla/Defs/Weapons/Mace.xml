@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingStyleDef>
-		<defName>TA_Melee_MaceB</defName>
+		<defName>TA_MaceB</defName>
 		<graphicData>
 			<texPath>Weapons/TA_Mace/TA_MaceSimpleB</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -11,7 +11,7 @@
 	</ThingStyleDef>
 
 	<ThingStyleDef>
-		<defName>TA_Melee_MaceC</defName>
+		<defName>TA_MaceC</defName>
 		<graphicData>
 			<texPath>Weapons/TA_Mace/TA_MaceSimpleC</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -20,9 +20,9 @@
 	</ThingStyleDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-		<defName>TA_Melee_Mace</defName>
+		<defName>TA_Mace</defName>
 		<label>mace</label>
-		<description>todo.</description>
+		<description>.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Weapons/TA_Mace/TA_MaceSimpleA</texPath>
@@ -34,10 +34,10 @@
 		<randomStyleChance>0.50</randomStyleChance>
 		<randomStyle>
 			<li>
-				<styleDef>TA_Melee_MaceB</styleDef>
+				<styleDef>TA_MaceB</styleDef>
 			</li>
 			<li>
-				<styleDef>TA_Melee_MaceC</styleDef>
+				<styleDef>TA_MaceC</styleDef>
 			</li>
 		</randomStyle>
 		<techLevel>Medieval</techLevel>

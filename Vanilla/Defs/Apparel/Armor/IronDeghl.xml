@@ -2,9 +2,9 @@
 <Defs>
 
 	<ThingDef ParentName="ArmorSmithableBase">
-		<defName>TA_Apparel_IronDeghl</defName>
+		<defName>TA_IronDeghl</defName>
 		<label>iron deghl</label>
-		<description>todo.</description>
+		<description>.</description>
 		<possessionCount>1</possessionCount>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>

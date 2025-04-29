@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingStyleDef>
-		<defName>TA_Melee_LanceA</defName>
+		<defName>TA_LanceA</defName>
 		<graphicData>
 			<texPath>Weapons/TA_Lance/TA_LanceA</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -29,9 +29,9 @@
 	</ThingStyleDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>TA_Melee_Lance</defName>
+		<defName>TA_Lance</defName>
 		<label>lance</label>
-		<description>todo.</description>
+		<description>.</description>
 		<graphicData>
 			<texPath>Weapons/TA_Lance/TA_LanceB</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -42,7 +42,7 @@
 		<randomStyleChance>0.66</randomStyleChance>
 		<randomStyle>
 			<li>
-				<styleDef>TA_Melee_LanceA</styleDef>
+				<styleDef>TA_LanceA</styleDef>
 			</li>
 			<li>
 				<styleDef>TA_LanceHookedA</styleDef>

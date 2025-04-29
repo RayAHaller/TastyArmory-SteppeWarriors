@@ -2,9 +2,9 @@
 <Defs>
 
 	<ThingDef ParentName="HatMakeableBase">
-		<defName>TA_Apparel_WarriorFurCap</defName>
+		<defName>TA_WarriorFurCap</defName>
 		<label>warrior fur cap</label>
-		<description>todo.</description>
+		<description>.</description>
 		<graphicData>
 			<texPath>Apparel/Helmets/TA_WarriorFurCap/TA_WarriorFurCap</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

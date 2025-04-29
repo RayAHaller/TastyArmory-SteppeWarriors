@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="TA_Apparel_IronPagoda" Abstract="True">
+	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="TA_IronPagoda" Abstract="True">
 		<label>iron pagoda helmet</label>
 		<description>.</description>
 		<possessionCount>1</possessionCount>
@@ -59,8 +59,8 @@
 	</ThingDef>
 
 	
-	<ThingDef ParentName="TA_Apparel_IronPagoda">
-		<defName>TA_Apparel_IronPagodaClosed</defName>
+	<ThingDef ParentName="TA_IronPagoda">
+		<defName>TA_IronPagodaClosed</defName>
 		<graphicData>
 			<texPath>Apparel/Helmets/TA_IronPagoda/TA_IronPagodaClosed</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -74,7 +74,7 @@
 		</apparel>
 		<comps>
 			<li Class="VanillaApparelExpanded.CompProperties_SwitchApparel" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
-				<SwitchTo>TA_Apparel_IronPagodaOpen</SwitchTo>
+				<SwitchTo>TA_IronPagodaOpen</SwitchTo>
 				<graphicPath>Apparel/Helmets/TA_IronPagoda/TA_IronPagodaOpen</graphicPath>
 				<Label>open visor</Label>
 			</li>
@@ -135,8 +135,8 @@
 		</modExtensions>
 	</ThingDef>
 	
-	<ThingDef ParentName="TA_Apparel_IronPagoda">
-		<defName>TA_Apparel_IronPagodaOpen</defName>
+	<ThingDef ParentName="TA_IronPagoda">
+		<defName>TA_IronPagodaOpen</defName>
 		<graphicData>
 			<texPath>Apparel/Helmets/TA_IronPagoda/TA_IronPagodaOpen</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -147,7 +147,7 @@
 		</apparel>
 		<comps>
 			<li Class="VanillaApparelExpanded.CompProperties_SwitchApparel" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
-				<SwitchTo>TA_Apparel_IronPagodaClosed</SwitchTo>
+				<SwitchTo>TA_IronPagodaClosed</SwitchTo>
 				<graphicPath>Apparel/Helmets/TA_IronPagoda/TA_IronPagodaClosed</graphicPath>
 				<Label>close visor</Label>
 			</li>

@@ -2,11 +2,11 @@
 <Defs>
 
 	<ThingDef ParentName="TA_ApparelCarryGearBase">
-		<defName>TA_Apparel_SaberScabbard</defName>
+		<defName>TA_SteppeSaberScabbard</defName>
 		<label>saber scabbard</label>
 		<description>Scabbard holding a saber, stylish and comfortable personal defense carry.</description>
 		<graphicData>
-			<texPath>Apparel/Accessories/TA_SaberScabbard/TA_SaberScabbard</texPath>
+			<texPath>Apparel/Accessories/TA_SteppeSaberScabbard/TA_SteppeSaberScabbard</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -60,7 +60,7 @@
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
-			<wornGraphicPath>Apparel/Accessories/TA_SaberScabbard/TA_SaberScabbard</wornGraphicPath>
+			<wornGraphicPath>Apparel/Accessories/TA_SteppeSaberScabbard/TA_SteppeSaberScabbard</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />

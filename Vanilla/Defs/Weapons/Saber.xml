@@ -2,38 +2,38 @@
 <Defs>
 
 	<ThingStyleDef>
-		<defName>TA_Melee_SaberA</defName>
+		<defName>TA_SteppeSaberA</defName>
 		<graphicData>
-			<texPath>Weapons/TA_Saber/TA_SaberA</texPath>
+			<texPath>Weapons/TA_SteppeSaber/TA_SteppeSaberA</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 	</ThingStyleDef>
 
 	<ThingStyleDef>
-		<defName>TA_Melee_SaberB</defName>
+		<defName>TA_SteppeSaberB</defName>
 		<graphicData>
-			<texPath>Weapons/TA_Saber/TA_SaberB</texPath>
+			<texPath>Weapons/TA_SteppeSaber/TA_SteppeSaberB</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 	</ThingStyleDef>
 
 	<ThingStyleDef>
-		<defName>TA_Melee_SaberD</defName>
+		<defName>TA_SteppeSaberD</defName>
 		<graphicData>
-			<texPath>Weapons/TA_Saber/TA_SaberD</texPath>
+			<texPath>Weapons/TA_SteppeSaber/TA_SteppeSaberD</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 	</ThingStyleDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>TA_Melee_Saber</defName>
+		<defName>TA_SteppeSaber</defName>
 		<label>saber</label>
 		<description>.</description>
 		<graphicData>
-			<texPath>Weapons/TA_Saber/TA_SaberC</texPath>
+			<texPath>Weapons/TA_SteppeSaber/TA_SteppeSaberC</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -41,13 +41,13 @@
 		<randomStyleChance>0.70</randomStyleChance>
 		<randomStyle>
 			<li>
-				<styleDef>TA_Melee_SaberA</styleDef>
+				<styleDef>TA_SteppeSaberA</styleDef>
 			</li>
 			<li>
-				<styleDef>TA_Melee_SaberB</styleDef>
+				<styleDef>TA_SteppeSaberB</styleDef>
 			</li>
 			<li>
-				<styleDef>TA_Melee_SaberD</styleDef>
+				<styleDef>TA_SteppeSaberD</styleDef>
 			</li>
 		</randomStyle>
 		<possessionCount>1</possessionCount>

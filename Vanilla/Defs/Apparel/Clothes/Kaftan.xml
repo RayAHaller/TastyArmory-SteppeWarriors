@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+	<ThingStyleDef>
+		<defName>TA_KaftanWarrior</defName>
+		<wornGraphicPath>Apparel/Clothes/TA_KaftanWarrior/TA_KaftanWarrior</wornGraphicPath>
+		<graphicData>
+			<texPath>Apparel/Clothes/TA_KaftanWarrior/TA_KaftanWarrior</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
 	<ThingDef ParentName="ApparelMakeableBase" Name="TA_Kaftan">
-		<defName>TA_Apparel_KaftanCommoner</defName>
+		<defName>TA_KaftanCommoner</defName>
 		<label>kaftan</label>
 		<description>.</description>
 		<graphicData>
 			<texPath>Apparel/Clothes/TA_KaftanCommoner/TA_KaftanCommoner</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<possessionCount>1</possessionCount>
+		<randomStyleChance>0.5</randomStyleChance>
+		<randomStyle>
+			<li>
+				<styleDef>TA_KaftanWarrior</styleDef>
+			</li>
+		</randomStyle>
 		<recipeMaker>
 			<researchPrerequisite>ComplexClothing</researchPrerequisite>
 		</recipeMaker>
@@ -58,37 +72,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="TA_Kaftan">
-		<defName>TA_Apparel_KaftanWarrior</defName>
-		<label>warrior kaftan</label>
-		<description>.</description>
-		<graphicData>
-			<texPath>Apparel/Clothes/TA_KaftanWarrior/TA_KaftanWarrior</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<costStuffCount>80</costStuffCount>
-		<statBases>
-			<MaxHitPoints>250</MaxHitPoints>
-			<WorkToMake>7500</WorkToMake>
-			<Mass>1.5</Mass>
-			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-		</statBases>
-		<apparel>
-			<wornGraphicPath>Apparel/Clothes/TA_KaftanWarrior/TA_KaftanWarrior</wornGraphicPath>
-			<tags Inherit="False">
-				<li>Neolithic</li>
-				<li>MedievalMilitary</li>
-				<li>MedievalArmorDecent</li>
-				<li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
-				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
-			</tags>
-			<defaultOutfitTags Inherit="False">
-				<li>Soldier</li>
-			</defaultOutfitTags>
-		</apparel>
-	</ThingDef>
-
-	<ThingDef ParentName="TA_Kaftan">
-		<defName>TA_Apparel_KaftanNoble</defName>
+		<defName>TA_KaftanNoble</defName>
 		<label>noble kaftan</label>
 		<description>.</description>
 		<graphicData>

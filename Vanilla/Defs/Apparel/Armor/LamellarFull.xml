@@ -2,9 +2,9 @@
 <Defs>
 
 	<ThingDef ParentName="ArmorSmithableBase">
-		<defName>TA_Apparel_LamellarArmor</defName>
+		<defName>TA_LamellarArmor</defName>
 		<label>lamellar heavy armor</label>
-		<description>todo.</description>
+		<description>.</description>
 		<possessionCount>1</possessionCount>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>

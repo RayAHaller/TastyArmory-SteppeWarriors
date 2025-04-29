@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="ApparelMakeableBase">
-		<defName>TA_Apparel_PaddedDeghl</defName>
+		<defName>TA_PaddedDeghl</defName>
 		<label>padded deghl</label>
 		<description>A thick padded coat made of lots of fabric layers, protects from cuts and bruises.</description>
 		<graphicData>

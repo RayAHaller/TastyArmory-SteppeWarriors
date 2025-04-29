@@ -2,11 +2,11 @@
 <Defs>
 
 	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="TA_HelmetAventail">
-		<defName>TA_Apparel_HelmetAventailLamellar</defName>
+		<defName>TA_HelmetAventailLamellar</defName>
 		<label>lamellar aventail helmet</label>
-		<description>todo.</description>
+		<description>.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/TA_HelmetAventailBrigandine/TA_HelmetAventailBrigandine</texPath>
+			<texPath>Apparel/Helmets/TA_HelmetAventailLamellar/TA_HelmetAventailLamellar</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<possessionCount>1</possessionCount>
@@ -40,7 +40,7 @@
 				<li>FullHead</li>
 				<li>Neck</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Helmets/TA_HelmetAventailBrigandine/TA_HelmetAventailBrigandine</wornGraphicPath>
+			<wornGraphicPath>Apparel/Helmets/TA_HelmetAventailLamellar/TA_HelmetAventailLamellar</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -93,15 +93,15 @@
 	</ThingDef>
 
 	<ThingDef ParentName="TA_HelmetAventail">
-		<defName>TA_Apparel_HelmetAventailBrigandine</defName>
+		<defName>TA_HelmetAventailBrigandine</defName>
 		<label>brigandine helmet</label>
-		<description>todo.</description>
+		<description>.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/TA_HelmetAventailLamellar/TA_HelmetAventailLamellar</texPath>
+			<texPath>Apparel/Helmets/TA_HelmetAventailBrigandine/TA_HelmetAventailBrigandine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Apparel/Helmets/TA_HelmetAventailLamellar/TA_HelmetAventailLamellar</wornGraphicPath>
+			<wornGraphicPath>Apparel/Helmets/TA_HelmetAventailBrigandine/TA_HelmetAventailBrigandine</wornGraphicPath>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>

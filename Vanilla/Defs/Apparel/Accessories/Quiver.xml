@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="TA_ApparelCarryGearBase">
-		<defName>TA_Apparel_BowAndArrowQuivers</defName>
+		<defName>TA_BowAndArrowQuivers</defName>
 		<label>bow and arrow quiver</label>
 		<description>An archer's bow and arrow quiver belt, ergonomic, fits many arrows.</description>
 		<graphicData>

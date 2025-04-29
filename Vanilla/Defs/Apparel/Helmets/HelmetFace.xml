@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="TA_Apparel_HelmetFace" Abstract="True">
+	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="TA_HelmetFace" Abstract="True">
 		<label>masked helmet</label>
 		<description>.</description>
 		<possessionCount>1</possessionCount>
@@ -57,8 +57,8 @@
 	</ThingDef>
 
 	
-	<ThingDef ParentName="TA_Apparel_HelmetFace">
-		<defName>TA_Apparel_HelmetFaceClosed</defName>
+	<ThingDef ParentName="TA_HelmetFace">
+		<defName>TA_HelmetFaceClosed</defName>
 		<graphicData>
 			<texPath>Apparel/Helmets/TA_HelmetFace/TA_HelmetFaceClosed</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -68,15 +68,15 @@
 		</apparel>
 		<comps>
 			<li Class="VanillaApparelExpanded.CompProperties_SwitchApparel" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
-				<SwitchTo>TA_Apparel_HelmetFaceOpen</SwitchTo>
+				<SwitchTo>TA_HelmetFaceOpen</SwitchTo>
 				<graphicPath>Apparel/Helmets/TA_HelmetFace/TA_HelmetFaceOpen</graphicPath>
 				<Label>open visor</Label>
 			</li>
 		</comps>
 	</ThingDef>
 	
-	<ThingDef ParentName="TA_Apparel_HelmetFace">
-		<defName>TA_Apparel_HelmetFaceOpen</defName>
+	<ThingDef ParentName="TA_HelmetFace">
+		<defName>TA_HelmetFaceOpen</defName>
 		<graphicData>
 			<texPath>Apparel/Helmets/TA_HelmetFace/TA_HelmetFaceOpen</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -87,7 +87,7 @@
 		</apparel>
 		<comps>
 			<li Class="VanillaApparelExpanded.CompProperties_SwitchApparel" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
-				<SwitchTo>TA_Apparel_HelmetFaceClosed</SwitchTo>
+				<SwitchTo>TA_HelmetFaceClosed</SwitchTo>
 				<graphicPath>Apparel/Helmets/TA_HelmetFace/TA_HelmetFaceClosed</graphicPath>
 				<Label>close visor</Label>
 			</li>
