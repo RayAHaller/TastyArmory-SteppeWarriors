@@ -5,7 +5,7 @@
 	<supportedVersions>
 	  <li>1.5</li>
 	</supportedVersions>
-	<packageId>al9000.medievalsteppe</packageId>
+	<packageId>al9000.tastysteppe</packageId>
 	<description>stuff</description>
 	<modDependencies>
 		<li>
