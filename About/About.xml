@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Tasty Armory - Steppe Warriors</name>
-	<author>al9000</author>
+	<author>al9000</author>	
+	<url>https://github.com/SerinaCE/TastyArmory-SteppeWarriors</url>
 	<supportedVersions>
 	  <li>1.5</li>
 	</supportedVersions>
