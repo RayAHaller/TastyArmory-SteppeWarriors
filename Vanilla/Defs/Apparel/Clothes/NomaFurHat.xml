@@ -2,10 +2,10 @@
 <Defs>
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>TA_NomadFurHat</defName>
-		<label>nomad fur hat</label>
+		<label>nomad fur hood</label>
 		<description>.</description>
 		<graphicData>
-			<texPath>Apparel/Clothes/TA_NomadFurHat/TA_NomadFurHat</texPath>
+			<texPath>Apparel/Clothes/TA_NomadFurHood/TA_NomadFurHood</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costStuffCount>30</costStuffCount>
@@ -30,7 +30,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Clothes/TA_NomadFurHat/TA_NomadFurHat</wornGraphicPath>
+			<wornGraphicPath>Apparel/Clothes/TA_NomadFurHood/TA_NomadFurHood</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>

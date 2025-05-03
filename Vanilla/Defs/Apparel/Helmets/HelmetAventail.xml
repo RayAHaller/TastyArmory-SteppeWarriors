@@ -62,11 +62,11 @@
 		<label>brigandine helmet</label>
 		<description>.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/TA_HelmetAventailLamellar/TA_HelmetAventailBrigandine</texPath>
+			<texPath>Apparel/Helmets/TA_HelmetAventailBrigandine/TA_HelmetAventailBrigandine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Apparel/Helmets/TA_HelmetAventailLamellar/TA_HelmetAventailBrigandine</wornGraphicPath>
+			<wornGraphicPath>Apparel/Helmets/TA_HelmetAventailBrigandine/TA_HelmetAventailBrigandine</wornGraphicPath>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
