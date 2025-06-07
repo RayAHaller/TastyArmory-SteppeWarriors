@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef ParentName="ApparelCarryGearBase">
+	<ThingDef ParentName="TA_ApparelCarryGearBase">
 		<defName>TA_SteppeSaberScabbard</defName>
 		<label>saber scabbard</label>
 		<description>Scabbard holding a saber, stylish and comfortable personal defense carry.</description>
@@ -42,9 +42,6 @@
 			<bodyPartGroups>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<layers>
-				<li>Webbing</li>
-			</layers>
 			<tags>
 				<li>Medieval</li>
 				<li>MedievalMilitary</li>

@@ -48,6 +48,7 @@
 			<EquipDelay>3</EquipDelay>
 		</statBases>
 		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Neck</li>
@@ -98,6 +99,7 @@
 			<SocialImpact>0.2</SocialImpact>
 		</equippedStatOffsets>
 		<apparel>
+			<developmentalStageFilter Inherit="False">Adult</developmentalStageFilter>
 			<wornGraphicPath>Apparel/Clothes/TA_KaftanNoble/TA_KaftanNoble</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<tags Inherit="False">
