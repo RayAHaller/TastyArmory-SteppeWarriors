@@ -35,7 +35,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Helmets/TA_WarriorFurCapTA_/WarriorFurCap</wornGraphicPath>
+			<wornGraphicPath>Apparel/Helmets/TA_WarriorFurCap/TA_WarriorFurCap</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
