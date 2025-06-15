@@ -25,6 +25,10 @@
 			<EquipDelay>3</EquipDelay>
 		</statBases>
 		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+			</recipeUsers>
 			<researchPrerequisite>PlateArmor</researchPrerequisite>
 			<recipeUsers>
 				<li>ElectricSmithy</li>
