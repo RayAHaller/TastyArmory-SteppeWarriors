@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<!--
+	<ThingDef ParentName="AnimalPlateArmorBase">
+		<defName>TA_LamellarHorseArmor</defName>
+		<label>lamellar horse armor</label>
+		<description>.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Horse</ThingDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Apparel/HorseArmor/TA_LamellarHorseArmor/TA_LamellarHorseArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>200</costStuffCount>
+		<statBases>
+			<WorkToMake>70000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>15</Mass>
+		</statBases>
+		<apparel>
+			<wornGraphicPath>Apparel/HorseArmor/TA_LamellarHorseArmor/TA_LamellarHorseArmor</wornGraphicPath>
+			<tags>
+				<li>Animal</li>
+				<li>AnimalCUTOUTCOMPLEX</li>
+				<li>Horse</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AnimalPlateArmorBase">
+		<defName>TA_LaminarHorseArmor</defName>
+		<label>laminar horse armor</label>
+		<description>.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Horse</ThingDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Apparel/HorseArmor/LaminarHorseArmor/LaminarHorseArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>200</costStuffCount>
+		<statBases>
+			<WorkToMake>70000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>15</Mass>
+		</statBases>
+		<apparel>
+			<wornGraphicPath>Apparel/HorseArmor/LaminarHorseArmor/LaminarHorseArmor</wornGraphicPath>
+			<tags>
+				<li>Animal</li>
+				<li>AnimalCUTOUTCOMPLEX</li>
+				<li>Horse</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AnimalPlateHelmBase">
+		<defName>TA_HorseHelmet</defName>
+		<label>horse helmet</label>
+		<description>.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Horse</ThingDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Apparel/HorseArmor/HorseHelmet/HorseHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>70</costStuffCount>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>5</Mass>
+		</statBases>
+		<apparel>
+			<wornGraphicPath>Apparel/HorseArmor/HorseHelmet/HorseHelmet</wornGraphicPath>
+			<tags>
+				<li>Animal</li>
+				<li>AnimalCUTOUTCOMPLEX</li>
+				<li>Horse</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+-->
+</Defs>
